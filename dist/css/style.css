@@ -106,13 +106,13 @@ header #nav-links li {
     font-size: 4rem;
     color: #ffffff;
     opacity: 0;
-    transform: translateY(-300px);
+    /*transform: translateY(-300px);
     animation-name: opa;
     animation-delay: 2s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-    animation-timing-function: ease-in; }
+    animation-timing-function: ease-in;*/ }
   #welcome-section #welcome-arrow {
     position: absolute;
     display: flex;
@@ -121,12 +121,12 @@ header #nav-links li {
     height: 60px;
     top: 85%;
     margin: auto;
-    animation-name: upanddown;
+    /*animation-name: upanddown;
     animation-delay: 1s;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out; }
+    animation-timing-function: ease-in-out;*/ }
 
 @keyframes upanddown {
   0% {
@@ -138,13 +138,13 @@ header #nav-links li {
       height: 83%;
       background: #ffffff;
       transform: rotate(135deg);
-      animation-name: showlate;
+      /*animation-name: showlate;
       opacity: 0;
       animation-delay: 5s;
       animation-duration: 1s;
       animation-fill-mode: forwards;
       animation-iteration-count: 1;
-      animation-timing-function: ease-in; }
+      animation-timing-function: ease-in;*/ }
     #welcome-section #welcome-arrow .line:nth-of-type(2) {
       width: 4px;
       height: 80%;
